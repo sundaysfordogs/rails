@@ -23,7 +23,7 @@ Gem::Specification.new do |s|
     s.license = 'Apache-2.0'
 
     s.add_runtime_dependency 'IPinfo', '~> 1.0.1'
-    s.add_runtime_dependency 'rack', '~> 2.0'
+    s.add_runtime_dependency 'rack', '~> 3.0'
 
     s.files = `git ls-files -z`.split("\x0").reject do |f|
         f.match(%r{^(test|spec|features)/})
